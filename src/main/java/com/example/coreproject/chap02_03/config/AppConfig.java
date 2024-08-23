@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
+@Configuration("app3")
 @ComponentScan(basePackages = "com.example.coreproject.chap02_03")
 public class AppConfig {
     // 스프링 빈 설정은 @ComponentScan으로 자동으로 설정됨
